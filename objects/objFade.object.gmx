@@ -52,7 +52,7 @@ fade = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>a = clamp(a + (fade * 0.02),0,1);
+            <string>a = clamp(a + (fade * 0.03),0,1);
 if (a == 1)
 {
     room_goto(global.roomNum);
